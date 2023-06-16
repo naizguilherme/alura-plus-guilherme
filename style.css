@@ -6,7 +6,29 @@
 } 
 
 body{
-    
+    background-color: var (var(--botão-azul));
+    color: var(--branco-principal)
+}
 
+*{
+    margin: 0;
+    padding: 0 ;
+}
 
+.principal{
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
+
+.container__botao{
+    background-color: var(--botão-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
 }
